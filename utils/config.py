@@ -23,7 +23,7 @@ KEYWORD_RSS_FEEDS = [
     {"keyword": "Biodiversity", "url": "https://rss.app/rss-feed?keyword=Biodiversity&region=US&lang=en"},
 ]
 
-OPENAI_API_KEY = "sk-svcacct-J9UDf4dt27sSPRX0VcZXT3BlbkFJCmgEClXUHpUcIEXt7JiM"
+OPENAI_API_KEY = "Your-api-key"
 ALL_ARTICLES_FILE = "all_articles.json"
 SCRAPED_DATA_FILE = "scraped_articles.json"
 # Content Analysis Configuration
