@@ -1,3 +1,10 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.env
+blockchain_intel.db
+blockchain_intel.log
+content_analysis.log
+data_acquisition.log
+file_1.log
+reporting.log
