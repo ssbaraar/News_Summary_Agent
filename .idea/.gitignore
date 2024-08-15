@@ -2,9 +2,9 @@
 /shelf/
 /workspace.xml
 .env
-blockchain_intel.db
-blockchain_intel.log
-content_analysis.log
-data_acquisition.log
-file_1.log
-reporting.log
+News_Summary_Agent/blockchain_intel.db
+News_Summary_Agent/blockchain_intel.log
+News_Summary_Agent/content_analysis.log
+News_Summary_Agent/data_acquisition.log
+News_Summary_Agent/file_1.log
+News_Summary_Agent/reporting.log
