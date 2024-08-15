@@ -1,0 +1,162 @@
+2024-08-03 20:12:45.359 | INFO     | __main__:run_agent:12 - Starting Data Acquisition Agent...
+2024-08-03 20:12:45.360 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for GreenBiz
+2024-08-03 20:12:46.862 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Green Earth
+2024-08-03 20:12:49.088 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Sustainable Brands
+2024-08-03 20:12:51.747 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Carbon Credits
+2024-08-03 20:12:54.175 | ERROR    | agents.data_acquisition_agent:fetch_from_web:75 - Network error fetching https://carboncredits.com/: 403 Client Error: Forbidden for url: https://carboncredits.com/
+2024-08-03 20:12:54.181 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Triple Pundit
+2024-08-03 20:12:55.170 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for ESG Today
+2024-08-03 20:12:57.533 | ERROR    | agents.data_acquisition_agent:fetch_from_web:75 - Network error fetching https://www.esgtoday.com/: 403 Client Error: Forbidden for url: https://www.esgtoday.com/
+2024-08-03 20:12:57.535 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for CoinDesk
+2024-08-03 20:13:01.796 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Forbes
+2024-08-03 20:13:03.218 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for BusinessWire
+2024-08-03 20:13:03.978 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for PRWeb
+2024-08-03 20:13:09.061 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Tokenization
+2024-08-03 20:13:09.794 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for DLT
+2024-08-03 20:13:10.471 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for RWA
+2024-08-03 20:13:11.185 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Nature Based Credits
+2024-08-03 20:13:11.866 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Biodiversity
+2024-08-03 20:13:12.570 | INFO     | agents.data_acquisition_agent:save_scraped_data:137 - Saved scraped data to scraped_articles.json
+2024-08-03 20:13:12.570 | INFO     | agents.data_acquisition_agent:run:27 - Run completed. Fetched 0 articles in 27.21 seconds.
+2024-08-03 20:13:12.570 | INFO     | __main__:run_agent:16 - Data Acquisition Agent completed successfully.
+2024-08-03 20:13:12.570 | ERROR    | __main__:main:43 - An error occurred: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords[0m
+
+  Searched in:
+    - 'C:\\Users\\SreeshaB/nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\share\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-08-03 20:13:12.585 | INFO     | __main__:main:44 - Retrying in 5.0 minutes...
+2024-08-03 20:18:12.587 | INFO     | __main__:run_agent:12 - Starting Data Acquisition Agent...
+2024-08-03 20:18:12.587 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for GreenBiz
+2024-08-03 20:18:13.929 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Green Earth
+2024-08-03 20:18:16.004 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Sustainable Brands
+2024-08-03 20:18:19.463 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Carbon Credits
+2024-08-03 20:18:21.538 | ERROR    | agents.data_acquisition_agent:fetch_from_web:75 - Network error fetching https://carboncredits.com/: 403 Client Error: Forbidden for url: https://carboncredits.com/
+2024-08-03 20:18:21.539 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Triple Pundit
+2024-08-03 20:18:22.311 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for ESG Today
+2024-08-03 20:18:24.109 | ERROR    | agents.data_acquisition_agent:fetch_from_web:75 - Network error fetching https://www.esgtoday.com/: 403 Client Error: Forbidden for url: https://www.esgtoday.com/
+2024-08-03 20:18:24.111 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for CoinDesk
+2024-08-03 20:18:26.963 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Forbes
+2024-08-03 20:18:28.334 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for BusinessWire
+2024-08-03 20:18:28.865 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for PRWeb
+2024-08-03 20:18:32.232 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Tokenization
+2024-08-03 20:18:33.644 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for DLT
+2024-08-03 20:18:34.345 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for RWA
+2024-08-03 20:18:35.792 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Nature Based Credits
+2024-08-03 20:18:36.504 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Biodiversity
+2024-08-03 20:18:37.896 | INFO     | agents.data_acquisition_agent:save_scraped_data:137 - Saved scraped data to scraped_articles.json
+2024-08-03 20:18:37.896 | INFO     | agents.data_acquisition_agent:run:27 - Run completed. Fetched 0 articles in 25.31 seconds.
+2024-08-03 20:18:37.896 | INFO     | __main__:run_agent:16 - Data Acquisition Agent completed successfully.
+2024-08-03 20:18:37.896 | ERROR    | __main__:main:43 - An error occurred: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords[0m
+
+  Searched in:
+    - 'C:\\Users\\SreeshaB/nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\share\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-08-03 20:18:37.896 | INFO     | __main__:main:44 - Retrying in 5.0 minutes...
+2024-08-03 20:19:31.147 | INFO     | __main__:run_agent:12 - Starting Data Acquisition Agent...
+2024-08-03 20:19:31.147 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for GreenBiz
+2024-08-03 20:19:32.726 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Green Earth
+2024-08-03 20:19:33.521 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Sustainable Brands
+2024-08-03 20:19:36.114 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Carbon Credits
+2024-08-03 20:19:38.412 | ERROR    | agents.data_acquisition_agent:fetch_from_web:75 - Network error fetching https://carboncredits.com/: 403 Client Error: Forbidden for url: https://carboncredits.com/
+2024-08-03 20:19:38.412 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Triple Pundit
+2024-08-03 20:19:39.757 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for ESG Today
+2024-08-03 20:19:41.630 | ERROR    | agents.data_acquisition_agent:fetch_from_web:75 - Network error fetching https://www.esgtoday.com/: 403 Client Error: Forbidden for url: https://www.esgtoday.com/
+2024-08-03 20:19:41.630 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for CoinDesk
+2024-08-03 20:19:45.142 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Forbes
+2024-08-03 20:19:46.106 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for BusinessWire
+2024-08-03 20:19:46.916 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for PRWeb
+2024-08-03 20:19:50.381 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Tokenization
+2024-08-03 20:19:51.069 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for DLT
+2024-08-03 20:19:52.499 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for RWA
+2024-08-03 20:19:53.890 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Nature Based Credits
+2024-08-03 20:19:54.601 | INFO     | agents.data_acquisition_agent:fetch_and_store_articles:33 - Fetching articles for Biodiversity
+2024-08-03 20:19:55.810 | INFO     | agents.data_acquisition_agent:save_scraped_data:137 - Saved scraped data to scraped_articles.json
+2024-08-03 20:19:55.811 | INFO     | agents.data_acquisition_agent:run:27 - Run completed. Fetched 0 articles in 24.66 seconds.
+2024-08-03 20:19:55.811 | INFO     | __main__:run_agent:16 - Data Acquisition Agent completed successfully.
+2024-08-03 20:19:55.923 | INFO     | __main__:run_agent:12 - Starting Content Analysis Agent...
+2024-08-03 20:19:55.924 | INFO     | agents.content_analysis_agent:initialize:39 - Initializing Content Analysis Agent...
+2024-08-03 20:19:55.927 | INFO     | agents.content_analysis_agent:initialize:46 - Downloading NLTK data: punkt
+2024-08-03 20:19:58.932 | INFO     | agents.content_analysis_agent:initialize:46 - Downloading NLTK data: stopwords
+2024-08-03 20:19:59.001 | ERROR    | __main__:run_agent:18 - Error in Content Analysis Agent: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords[0m
+
+  Searched in:
+    - 'C:\\Users\\SreeshaB/nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\share\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-08-03 20:19:59.002 | ERROR    | __main__:main:43 - An error occurred: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords[0m
+
+  Searched in:
+    - 'C:\\Users\\SreeshaB/nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\share\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\Desktop\\news agentic flow\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\SreeshaB\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-08-03 20:19:59.004 | INFO     | __main__:main:44 - Retrying in 5.0 minutes...
